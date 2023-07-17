@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_haness_ci_example_main_1689607521434-pr-trigger-input-set
+  identifier: Build_haness_ci_example_main_1689607521434prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: radhakrishna
+  pipeline:
+    identifier: Build_haness_ci_example_main_1689607521434
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
